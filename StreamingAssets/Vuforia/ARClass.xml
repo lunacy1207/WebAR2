@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="chips" size="5.000000 3.500000"/>
+        <ImageTarget name="stones" size="5.000000 3.500000"/>
+        <ImageTarget name="Box.Back" size="0.512000 0.682000"/>
+        <ImageTarget name="Box.Top" size="0.512000 0.256000"/>
+        <ImageTarget name="Box.Front" size="0.512000 0.682000"/>
+        <ImageTarget name="Box.Left" size="0.256000 0.682500"/>
+        <ImageTarget name="Box.Bottom" size="0.512000 0.256000"/>
+        <ImageTarget name="Box.Right" size="0.256000 0.682500"/>
+        <MultiTarget name="Box">
+            <Part name="Box.Left" translation="-0.25600001215934753 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Box.Right" translation="0.25600001215934753 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Box.Front" translation="0 0 0.12800000607967377" rotation="AD: 1 0 0 0"/>
+            <Part name="Box.Back" translation="0 0 -0.12800000607967377" rotation="AD: 0 1 0 180"/>
+            <Part name="Box.Top" translation="0 0.3409999907016754 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Box.Bottom" translation="0 -0.3409999907016754 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
